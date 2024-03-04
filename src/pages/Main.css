@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.containers {background-image: url('back-1.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5px;
+  height: 15vh;
+  text-align: center;
+  color: white;
+}
+
+.container h2 {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+.header header {
+  background-color: White; /* Blue color similar to */
+  padding: 20px;
+  color: #fff; /* White text color */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  margin-right: 40px;
+  width: 60px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.get-started,
+.advertise,
+.learn,
+.support {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: gray; /* Set the desired gray color */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.space {
+  margin-right: 70px; /* Set the desired space between the texts */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px; /* Adjust the margin-top value as needed */
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+
+/* New styles for the bottom section */
+.header-bottom-text {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: gray;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .logo {
+      margin-right: 20px;
+      width: 40px;
+  }
+
+  .get-started,
+  .advertise,
+  .learn,
+  .support {
+      font-size: 12px;
+  }
+
+  .space {
+      margin-right: 20px;
+  }
+
+
+  .container {
+      margin-top: 6px;
+  }
+}
+
+.container h2 {
+  font-size: 34px;
+  font-weight: normal;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+}
+
+
+.search-icon {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  position: relative; /* Set position to relative */
+  top: 0; /* Adjust the top position as needed */
+  left: 410px; /* Adjust the left position as needed */
+}
+
+.profile-icon {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  position: relative; /* Set position to relative */
+  top: -1px; /* Adjust the top position as needed */
+  left: 430px; /* Adjust the left position as needed */
+  /* Add any additional styling here */
+}
+
+a.my-button{
+  background: linear-gradient(to right,#196BCA ,#6433E0);
+  background-color: #196BCA;
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 0px solid #000;
+  border-radius: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a.my-button span{
+  margin-left:20px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiPg0KICA8ZGVmcz4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aCI+DQogICAgICA8cmVjdCB4PSItNCIgeT0iLTI1IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgZmlsbD0ibm9uZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQYXRoIGlkPSJjbGlwLXBhdGgtMiI+DQogICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzEiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDEiIHdpZHRoPSIxNDIiIGhlaWdodD0iMTAwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMC4zMzMgOS4xMjgpIiBmaWxsPSJub25lIi8+DQogICAgPC9jbGlwUGF0aD4NCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjAuOTg2IiB5MT0iMC41MDciIHgyPSItMC4wMjgiIHkyPSIwLjUyMiIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTMxIiBzdG9wLWNvbG9yPSIjZDlkOWQ5Ii8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9ImdyYXkiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIiIHgxPSIwLjk4NiIgeTE9IjAuNDkzIiB4Mj0iLTAuMDI4IiB5Mj0iMC40NzgiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz4NCiAgPC9kZWZzPg0KICA8ZyBpZD0iU2Nyb2xsX0dyb3VwXzEiIGRhdGEtbmFtZT0iU2Nyb2xsIEdyb3VwIDEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgMjUpIiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoKSIgc3R5bGU9Imlzb2xhdGlvbjogaXNvbGF0ZSI+DQogICAgPGcgaWQ9ImxvZ28tdyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwLjMzMyAtOS4xMjgpIiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoLTIpIj4NCiAgICAgIDxnIGlkPSJHcm91cF80MCIgZGF0YS1uYW1lPSJHcm91cCA0MCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC45NDEgNC40ODkpIj4NCiAgICAgICAgPGcgaWQ9Ikdyb3VwXzM4IiBkYXRhLW5hbWU9Ikdyb3VwIDM4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDAxKSI+DQogICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZV82MyIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjMiIHdpZHRoPSI3NS44ODciIGhlaWdodD0iMjUuMjk2IiByeD0iMTIuNjQ4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOC4wMzMgMzcuMjI1KSByb3RhdGUoNDUpIiBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiLz4NCiAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzY0IiBkYXRhLW5hbWU9IlJlY3RhbmdsZSA2NCIgd2lkdGg9Ijc1Ljg4NyIgaGVpZ2h0PSIyNS4yOTYiIHJ4PSIxMi42NDgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNTMuNjYpIHJvdGF0ZSgtNDUpIiBmaWxsPSIjZmZmIi8+DQogICAgICAgICAgPGNpcmNsZSBpZD0iRWxsaXBzZV8xIiBkYXRhLW5hbWU9IkVsbGlwc2UgMSIgY3g9IjcuODQyIiBjeT0iNy44NDIiIHI9IjcuODQyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS4xMyA0NS4wODEpIiBmaWxsPSIjZDlkYmZmIi8+DQogICAgICAgIDwvZz4NCiAgICAgICAgPGcgaWQ9Ikdyb3VwXzM5IiBkYXRhLW5hbWU9Ikdyb3VwIDM5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MC4wNzkgMCkiPg0KICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNjMtMiIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjMiIHdpZHRoPSI3NS44ODciIGhlaWdodD0iMjUuMjk2IiByeD0iMTIuNjQ4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MS41NDcgNTUuMTEyKSByb3RhdGUoMTM1KSIgZmlsbD0idXJsKCNsaW5lYXItZ3JhZGllbnQtMikiLz4NCiAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzY0LTIiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDY0IiB3aWR0aD0iNzUuODg3IiBoZWlnaHQ9IjI1LjI5NiIgcng9IjEyLjY0OCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTMuODA3IDcxLjU0Nykgcm90YXRlKC0xMzUpIiBmaWxsPSIjZmZmIi8+DQogICAgICAgICAgPGNpcmNsZSBpZD0iRWxsaXBzZV8xLTIiIGRhdGEtbmFtZT0iRWxsaXBzZSAxIiBjeD0iNy44NDIiIGN5PSI3Ljg0MiIgcj0iNy44NDIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ0Ljg4IDQ1LjA4MikiIGZpbGw9IiNkOWRiZmYiLz4NCiAgICAgICAgPC9nPg0KICAgICAgPC9nPg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+DQo=);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(0deg);
+  left: 230px;
+}
+a.my-button:hover{
+  background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+  background-color: #5482d0;
+}
+a.my-button:active{
+  transform: scale(0.95);
+}
+
+a.my-button {
+  /* Existing styles */
+  margin-left: 450px;
+
+}
+
+.notification {
+  background-color: #f8f8f8;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.notification:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-color: #4c8bf5;
+  border-radius: 4px 4px 0 0;
+}
+
+.notification-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notification-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.notification-list {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  list-style: none;
+  padding: 0;
+}
+
+.notification-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.notification-list-icon {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.notification-list-text {
+  font-size: 14px;
+}
+
+.notification-button {
+  background-color: #4c8bf5;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.notification-button:hover {
+  background-color: #3672d3;
+}
+
+.containers {
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
